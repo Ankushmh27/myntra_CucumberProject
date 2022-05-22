@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.272">
+<testcase classname="Item added to Mybag" name="select item and adding to mybag and check add or not" time="0.083">
+<system-out><![CDATA[Given myntra app............................................................passed
+Then select item size.......................................................passed
+Then add to bag.............................................................passed
+Then check item will add or not.............................................passed
+And Closebrowser............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

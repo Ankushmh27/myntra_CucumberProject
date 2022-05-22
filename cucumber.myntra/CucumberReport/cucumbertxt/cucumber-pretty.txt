@@ -1,0 +1,7 @@
+
+Scenario: select item and adding to mybag and check add or not # src/test/java/myntra1.features/myntra.feature:2
+  Given myntra app                                             # stepdefinations.myntra1_stepdefination.myntra_app()
+  Then select item size                                        # stepdefinations.myntra1_stepdefination.select_item_size()
+  Then add to bag                                              # stepdefinations.myntra1_stepdefination.add_to_bag()
+  Then check item will add or not                              # stepdefinations.myntra1_stepdefination.check_item_will_add_or_not()
+  And Closebrowser                                             # stepdefinations.myntra1_stepdefination.closebrowser()
